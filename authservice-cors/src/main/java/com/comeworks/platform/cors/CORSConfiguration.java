@@ -1,4 +1,9 @@
 package com.comeworks.platform.cors;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
 @Component
 public class CORSConfiguration extends WebMvcConfigurerAdapter {
     @Override
